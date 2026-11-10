@@ -2,6 +2,8 @@
 
 A React website, built with Vite and React Router, that reads its pages from [CMS Orbit](https://bifrostorbit.com/products/cms-orbit/), the headless CMS in Bifröst Orbit. It is the finished project from the [React quickstart](https://docs.bifrostorbit.com/cms/developers/quickstart-react/): every published page at its own address, your own React components for the blocks editors place, drafts in the live preview as editors type, and a small server that holds the secret key and checks the signed webhook.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bifrost-orbit/cms-starter-react?quickstart=1)
+
 ## Set up
 
 1. **Create your copy.** Select **Use this template** on GitHub, or run `gh repo create my-website --template bifrost-orbit/cms-starter-react --private --clone`.

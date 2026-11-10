@@ -1,0 +1,23 @@
+{
+  "name": "CMS Orbit starter for React",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postCreateCommand": "cp -n .env.example .env.local; npm install",
+  "forwardPorts": [
+    5173,
+    3001
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "Website",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "secrets": {
+    "CMS_API_URL": {
+      "description": "The API address from CMS Orbit, under Configuration › Environments"
+    },
+    "CMS_PUBLIC_KEY": {
+      "description": "A public key from CMS Orbit, under Configuration › API keys"
+    }
+  }
+}
